@@ -1,5 +1,6 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
+import { GlobeDemo } from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -46,7 +47,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
         className
       )}
       //  Add Dynamic Style
@@ -72,7 +73,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              className={'object-cover, object-center'}
+              className={'object-cover, object-center w-full h-full'}
             />
           )}
         </div>
@@ -82,7 +83,7 @@ export const BentoGridItem = ({
             items-center justify-center text-white font-bold"/>
           </BackgroundGradientAnimation>
 
-        ) }
+        )}
         <div className={cn(
           titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
         )}>
@@ -93,6 +94,7 @@ export const BentoGridItem = ({
             {title}
           </div>
         </div>
+        {id === 2 && <GlobeDemo />}
       </div>
     </div>
   );
