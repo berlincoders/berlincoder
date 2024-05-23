@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Communication skills boost developers' collaboration and success. ",
     description: "As a web developer, you're not just tucked away in a cozy space, crafting code. You're interacting with clients, teammates, and sometimes even end-users. Soft skills ensure the process goes smoothly, efficiently, and more enjoyably.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
