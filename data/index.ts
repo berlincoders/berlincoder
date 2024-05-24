@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "treasurekeeper APP",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "a web app to gamify your finances! ",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "http://www.treasurekeeper.online/",
