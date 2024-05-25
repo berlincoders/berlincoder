@@ -60,5 +60,4 @@ const RecentProjects = () => {
     </div>
   )
 }
-
 export default RecentProjects
