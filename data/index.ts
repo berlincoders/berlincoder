@@ -74,7 +74,7 @@ export const projects = [
     title: "treasurekeeper APP",
     des: "a web app to gamify your finances! ",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg", "/stimulus.svg"],
     link: "http://www.treasurekeeper.online/",
   },
   {
