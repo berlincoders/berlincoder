@@ -71,9 +71,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "treasurekeeper APP",
+    title: "Treasurekeeper app",
     des: "a web app to gamify your finances! ",
-    img: "/p1.svg",
+    img: "/treasurekeeper.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg", "/stimulus.svg"],
     link: "http://www.treasurekeeper.online/",
   },
