@@ -80,7 +80,7 @@ export const projects = [
   {
     id: 2,
     title: "Myspaceship",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Blast off into adventure! Rent the Millennium Falcon now for just 9141.86 Galaxian Credits and take your journey to the stars!",
     img: "/p2.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg"],
     link: "https://myspaceship-9e73f7ca505b.herokuapp.com/",
