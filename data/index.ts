@@ -79,11 +79,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
+    title: "Myspaceship",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    img: "/p2.png",
+    iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg"],
+    link: "https://myspaceship-9e73f7ca505b.herokuapp.com/",
   },
   {
     id: 3,
