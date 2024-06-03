@@ -87,10 +87,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "NFLKL, NFL kostenlos",
+    des: "Don't miss the biggest games of the 2024 NFL season! Watch for free on your mobile device and score a touchdown from anywhere!",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/mongodb.svg", "/expressjs.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/ai_saas_app",
   },
   {
