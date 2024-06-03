@@ -14,7 +14,7 @@ export const Hero = () => {
       </h2>
       <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
       You Dream It, We Code It.
-      We are a team of developers who are passionate about creating beautiful and functional websites and applications.
+      {/* We are a team of developers who are passionate about creating beautiful and functional websites and applications.*/}
       </p>
     </Vortex>
   </div>
