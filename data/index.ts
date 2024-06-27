@@ -84,23 +84,8 @@ export const projects = [
     img: "/p2.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg"],
     link: "https://myspaceship-9e73f7ca505b.herokuapp.com/",
-  },
-  {
-    id: 3,
-    title: "NFLKL, NFL kostenlos",
-    des: "Don't miss the biggest games of the 2024 NFL season! Watch for free on your mobile device and score a touchdown from anywhere!",
-    img: "/p3.svg",
-    iconLists: ["/mongodb.svg", "/expressjs.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
-  },
+  }
+
 ];
 
 export const testimonials = [
