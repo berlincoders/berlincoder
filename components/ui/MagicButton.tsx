@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MagicButon = ({
+const MagicButton = ({
   title, icon, position, handleClick, otherClasses
 }: {
     title : string ;icon:React.ReactNode, position:
@@ -18,4 +18,4 @@ const MagicButon = ({
   )
 }
 
-export default MagicButon
+export default MagicButton
