@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
-  { name: "SSL", link: "/ssl" },
+  { name: "SSL", link: "#" },
 ];
 export const gridItems = [
   {
@@ -67,6 +67,20 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
+export const sslItems =[
+  {
+    id: 1,
+    title: "Generate private key",
+    description: `Before requesting an SSL cert, generate a private key in your local environment using the openssl tool .<br>
+    If you cannot execute the openssl command from the terminal you may need to install it.`
+  },
+  {
+    id: 2,
+    title: "what is SSL?",
+    description: "This is a simple text box with styled border and background"
+  },
+]
 
 export const projects = [
   {
@@ -160,6 +174,7 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
   },
 ];
+
 
 export const socialMedia = [
   {
