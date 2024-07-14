@@ -2,7 +2,7 @@ import Footer from "@/components/Footer";
 import { LampDemo } from "@/components/ui/LampDemo";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
-import SimpleTextbox  from "@/components/ui/SimpleTextbox";
+import SimpleTextbox from "@/components/ui/SimpleTextbox";
 import { sslItems } from "@/data/index"; // Import the data
 import Terminal from "@/components/ui/Terminal"; // Import the CommandLine component
 import Header from "@/components/ui/Header"; // Import the Header component
@@ -24,8 +24,8 @@ export default function ssl() {
           title={sslItems[0].title}
           text={sslItems[0].description}
         >
+          {/* Terminal component as a child */}
           <Terminal command="openssl genrsa -out private.key 2048" />
-          
         </SimpleTextbox>
       </div>
     </main>

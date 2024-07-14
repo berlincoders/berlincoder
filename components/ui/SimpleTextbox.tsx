@@ -1,17 +1,15 @@
-"use client";
-
 import { cn } from "@/utils/cn";
 
 const SimpleTextbox = ({
   className,
   title,
   text,
-  children,
+  children, // Include children prop
 }: {
   className?: string;
-  title: string | React.ReactNode;
+  title?: string;
   text: string | React.ReactNode;
-  children?: React.ReactNode;
+  children?: React.ReactNode; // Declare children prop
 }) => {
   return (
     <div
@@ -25,15 +23,16 @@ const SimpleTextbox = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className="font-sans text-lg font-bold text-white mb-2">
-        {title}
-      </div>
-      <div className="font-sans text-sm text-[#C1C2D3]">
-        {text}
-      </div>
-        {children}
+      {title && (
+        <div className="font-sans text-lg font-bold text-[#C1C2D3]">
+          {title}
+        </div>
+      )}
+      <div className="font-sans text-sm text-[#C1C2D3]">{text}</div>
+      {children} {/* Render children component */}
     </div>
   );
 };
 
 export default SimpleTextbox;
+
