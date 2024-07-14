@@ -25,6 +25,7 @@ export default function ssl() {
           text={sslItems[0].description}
         >
           <Terminal command="openssl genrsa -out private.key 2048" />
+          
         </SimpleTextbox>
       </div>
     </main>
