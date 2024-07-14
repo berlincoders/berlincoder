@@ -2,7 +2,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
-  { name: "SSL", link: "#" },
+  //{ name: "Ssl", link: "#" },
 ];
 export const gridItems = [
   {
@@ -71,14 +71,14 @@ export const gridItems = [
 export const sslItems =[
   {
     id: 1,
-    title: "Generate private key",
-    description: `Before requesting an SSL cert, generate a private key in your local environment using the openssl tool .<br>
+    title: " 1 ) Generate private key",
+    description: `Before requesting an SSL certificate, you need to generate a private key in your local environment using the openssl tool .<br>
     If you cannot execute the openssl command from the terminal you may need to install it.`
   },
   {
     id: 2,
-    title: "what is SSL?",
-    description: "This is a simple text box with styled border and background"
+    title: " 2 ) Generate CSR",
+    description: "A CSR is a certificate signing request and is also required when purchasing an SSL cert. Using the private key from the previous step, generate the CSR. This will require you to enter identifying information about your organization and domain."
   },
 ]
 

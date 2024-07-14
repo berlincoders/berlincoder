@@ -1,14 +1,15 @@
 "use client";
+
 import { cn } from "@/utils/cn";
 
 const SimpleTextbox = ({
   className,
-  text,
   title,
+  text,
 }: {
   className?: string;
-  text: string | React.ReactNode;
   title: string | React.ReactNode;
+  text: string | React.ReactNode;
 }) => {
   return (
     <div
@@ -22,12 +23,15 @@ const SimpleTextbox = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div
-        className="font-sans text-sm text-[#C1C2D3]"
-        dangerouslySetInnerHTML={{ __html: text as string }} // Asegura que se renderice HTML
-      />
+      <div className="font-sans text-lg font-bold text-white mb-2">
+        {title}
+      </div>
+      <div className="font-sans text-sm text-[#C1C2D3]">
+        {text}
+      </div>
     </div>
   );
 };
 
 export default SimpleTextbox;
+
