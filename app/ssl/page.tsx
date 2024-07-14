@@ -13,7 +13,7 @@ export default function ssl() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
 
-        <Header className="mb-5" style={{ height: '300px' }}>
+        <Header className="mb-5">
           <div className="h-full w-full">
             <LampDemo />
           </div>
