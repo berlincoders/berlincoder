@@ -3,7 +3,8 @@ import { LampDemo } from "@/components/ui/LampDemo";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import SimpleTextbox  from "@/components/ui/SimpleTextbox";
-import { sslItems } from "@/data/index"; // Importa los datos
+import { sslItems } from "@/data/index"; // Import the data
+import Terminal from "@/components/ui/Terminal"; // Import the CommandLine component
 
 export default function ssl() {
   return (
@@ -14,6 +15,7 @@ export default function ssl() {
         {sslItems.map(item => (
           <SimpleTextbox key={item.id} title={item.title} text={item.description} />
         ))}
+        <Terminal command="openssl genrsa -out private.key 2048" />
       </div>
     </main>
   );
