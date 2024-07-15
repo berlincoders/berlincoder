@@ -25,10 +25,11 @@ export default function ssl() {
           text={sslItems[0].description}
           desc2={sslItems[0].desc2}
           desc3={sslItems[0].desc3}
+          desc4={sslItems[0].desc4}
           children1={<Terminal command="Homebrew: brew install openssl" />}
           children2={<Terminal command="sudo apt-get install openssl" />}
           children3={<Terminal command="openssl -v" />}
-          
+          children4={<Terminal command="openssl genrsa -des3 -out server.pass.key 2048" />}
         />
       </div>
     </main>

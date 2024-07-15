@@ -77,6 +77,8 @@ export const sslItems =[
     desc2: `For Ubuntu Linux, use the command below . . .`,
     desc3: `And if you're on Windows.. well, I feel sorry for you 😅, but you can still download it <b><a href="https://slproweb.com/products/Win32OpenSSL.html" target="_blank" style="color: #E49BFF;">here</a></b>.<br>
             Now check if openssl is correctly installed by running the command below. `,
+    desc4: `<pre>OpenSSL 3.3.1 4 Jun 2024 (Library: OpenSSL 3.3.1 4 Jun 2024)</pre><br>
+              A Similar message will apear in your console, that means you have successfully installed openssl. you can generate your private key now with the command below.`,
   },
   {
     id: 2,

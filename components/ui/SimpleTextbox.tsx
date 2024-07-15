@@ -9,7 +9,9 @@ const SimpleTextbox = ({
   children1,
   children2,
   children3,
+  children4,
   desc3,
+  desc4,
 }: {
   className?: string;
   title?: string;
@@ -18,7 +20,9 @@ const SimpleTextbox = ({
   children1?: React.ReactNode; // Children for the first Terminal component
   children2?: React.ReactNode; // Children for the second Terminal component
   children3?: React.ReactNode;
+  children4?: React.ReactNode;
   desc3?: string; // Additional description with link
+  desc4?: string;
 }) => {
   return (
     <div
@@ -52,6 +56,14 @@ const SimpleTextbox = ({
         ></div>
       )}
       {children3}
+      {desc4 && (
+        <div
+          className="font-sans text-sm text-[#C1C2D3] mt-4"
+          dangerouslySetInnerHTML={{ __html: desc4 }}
+        ></div>
+      )}
+      {children4}
+
     </div>
   );
 };
