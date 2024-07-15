@@ -23,10 +23,13 @@ export default function ssl() {
           key={sslItems[0].id}
           title={sslItems[0].title}
           text={sslItems[0].description}
-        >
-          {/* Terminal component as a child */}
-          <Terminal command="openssl genrsa -out private.key 2048" />
-        </SimpleTextbox>
+          desc2={sslItems[0].desc2}
+          desc3={sslItems[0].desc3}
+          children1={<Terminal command="Homebrew: brew install openssl" />}
+          children2={<Terminal command="sudo apt-get install openssl" />}
+          children3={<Terminal command="openssl -v" />}
+          
+        />
       </div>
     </main>
   );

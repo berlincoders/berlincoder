@@ -71,14 +71,17 @@ export const gridItems = [
 export const sslItems =[
   {
     id: 1,
-    title: " 1 ) Generate private key",
-    description: `Before requesting an SSL certificate, you need to generate a private key in your local environment using the openssl tool .<br>
-    If you cannot execute the openssl command from the terminal you may need to install it.`
+    title: "1) Generate private key",
+    description: `Before requesting an SSL certificate, you need to generate a private key in your local environment using the <a href="https://www.openssl.org/" target="_blank" rel="noopener noreferrer" style="color: #E49BFF; font-weight: bold;">openssl</a> tool.<br>
+    If you cannot execute the openssl command from the terminal, you may need to install it. For Mac OS X, use the command below.`,
+    desc2: `For Ubuntu Linux, use the command below . . .`,
+    desc3: `And if you're on Windows.. well, I feel sorry for you 😅, but you can still download it <b><a href="https://slproweb.com/products/Win32OpenSSL.html" target="_blank" style="color: #E49BFF;">here</a></b>.<br>
+            Now check if openssl is correctly installed by running the command below. `,
   },
   {
     id: 2,
     title: " 2 ) Generate CSR",
-    description: "A CSR is a certificate signing request and is also required when purchasing an SSL cert. Using the private key from the previous step, generate the CSR. This will require you to enter identifying information about your organization and domain."
+    description: "A CSR is a certificate signing request and is also required when purchasing an SSL cert. Using the private key from the previous step, generate the CSR. This will require you to enter identifying information about your organization and domain.<br>"
   },
 ]
 
