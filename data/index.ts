@@ -94,7 +94,7 @@ export const projects = [
     des: "a web app to gamify your finances! ",
     img: "/p1.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg", "/stimulus.svg"],
-    link: "http://www.treasurekeeper.online/",
+    link: "https://github.com/berlincoders/TreasureKeeper",
   },
   {
     id: 2,
@@ -102,7 +102,7 @@ export const projects = [
     des: "Blast off into adventure! Rent the Millennium Falcon now for just 9141.86 Galaxian Credits and take your journey to the stars!",
     img: "/p2.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg"],
-    link: "https://myspaceship-9e73f7ca505b.herokuapp.com/",
+    link: "https://github.com/berlincoders/MySpaceShip",
   }
 
 ];
