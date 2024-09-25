@@ -90,20 +90,36 @@ export const sslItems =[
 export const projects = [
   {
     id: 1,
+    title: "NFLKL app",
+    des: "Watch all NFL games for free, and utilize our FREE API solution! ",
+    img: "/p1.png",
+    iconLists: ["/tailwind.svg", "/mongodb.svg","/re.svg"],
+    link: "https://github.com/berlincoders/nflkl",
+  },
+  {
+    id: 2,
+    title: "skullbug",
+    des: "Skullbug is a cutting-edge bug tracking system designed to streamline issue management and resolution for agile software development teams.",
+    img: "/skullbug_promo.png",
+    iconLists: ["/java.svg"],
+    link: "https://github.com/berlincoders/skullbug",
+  },
+  {
+    id: 3,
     title: "Treasurekeeper app",
     des: "a web app to gamify your finances! ",
-    img: "/p1.png",
+    img: "/p3.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg", "/stimulus.svg"],
     link: "https://github.com/berlincoders/TreasureKeeper",
   },
   {
-    id: 2,
+    id: 4,
     title: "Myspaceship",
     des: "Blast off into adventure! Rent the Millennium Falcon now for just 9141.86 Galaxian Credits and take your journey to the stars!",
     img: "/p2.png",
     iconLists: ["/ruby.svg", "/rails.svg", "/postgresql.svg", "bootstrap.svg"],
     link: "https://github.com/berlincoders/MySpaceShip",
-  }
+  },
 
 ];
 
