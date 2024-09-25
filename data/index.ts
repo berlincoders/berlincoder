@@ -101,7 +101,7 @@ export const projects = [
     title: "skullbug",
     des: "Skullbug is a cutting-edge bug tracking system designed to streamline issue management and resolution for agile software development teams.",
     img: "/skullbug_promo.png",
-    iconLists: ["/java.svg"],
+    iconLists: ["/java.svg","/spring.png"],
     link: "https://github.com/berlincoders/skullbug",
   },
   {
