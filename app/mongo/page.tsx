@@ -27,6 +27,7 @@ export default function mongo() {
           key={mongoItems[1].id}
         />
         {/* Render second mongoItem */}
+        
         <SimpleMongo
           key={mongoItems[1].id}
           title={mongoItems[1].title}
