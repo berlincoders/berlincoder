@@ -91,6 +91,28 @@ export const sslItems =[
               A Similar message will apear in your console, that means you have successfully installed openssl. you can generate your private key now with the command below.`,
   },
 ]
+export const mongoItems =[
+  {
+    id: 1,
+    title: "1) Mongobd Setup",
+    description: `Is Mongodb  mongod process  running on your system?`,
+    desc3: ` 😅, Nothing happened? No worries! You've installed the software, now we just need to run it! , Use a Different Directory: Instead of creating /data/db, you can create a data directory within your home directory. For example:`,
+    desc4: `This will aboid problems with the permisions,Naw you can Start MongoDB with the new data directory path:`,
+    desc5: `Luckily, you should see something like this (check below 👇). In that case, keep this terminal window open`,
+    desc6: `<pre>{"t":{"$date":"2024-09-29T11:35:22.512+02:00"},"s":"I",  "c":"WTCHKPT",  "id":22430, timestamp: (0, 0) base write gen: 919"}}}"</pre><br>
+            <pre>█</pre><br>`,
+  },
+  {
+    id: 2,
+    title: " 2) Express Setup",
+    description: "A CSR is a certificate signing request and is also required when purchasing an SSL cert. Using the private key from the previous step, generate the CSR. This will require you to enter identifying information about your organization and domain.<br>",
+    desc2: `For Ubuntu Linux, use the command below . . .`,
+    desc3: `And if you're on Windows.. well, I feel sorry for you 😅, but you can still download it <b><a href="https://slproweb.com/products/Win32OpenSSL.html" target="_blank" style="color: #E49BFF;">here</a></b>.<br>
+            Now check if openssl is correctly installed by running the command below. `,
+    desc4: `<pre>OpenSSL 3.3.1 4 Jun 2024 (Library: OpenSSL 3.3.1 4 Jun 2024)</pre><br>
+              A Similar message will apear in your console, that means you have successfully installed openssl. you can generate your private key now with the command below.`,
+  },
+]
 
 export const projects = [
   {
