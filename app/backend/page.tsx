@@ -1,4 +1,5 @@
 import SimpleTextbox from "@/components/ui/SimpleTextbox";
+import Image from 'next/image';
 
 export default function Backend() {
   return (
@@ -51,7 +52,7 @@ export default function Backend() {
           <div className="border-2 border-blue-400 w-40 h-60 flex justify-center items-center rounded-md relative">
             <div className="text-center">
               <h3 className="text-lg font-semibold">express</h3>
-              <img src="/express-js.png" alt="Express Logo" className="w-12 h-12 mx-auto mt-2" />
+              <Image src="/express-js.png" alt="Express Logo" className="w-12 h-12 mx-auto mt-2" />
             </div>
           </div>
 
@@ -66,7 +67,7 @@ export default function Backend() {
           <div className="border-2 border-green-400 w-40 h-60 flex justify-center items-center rounded-md relative">
             <div className="text-center">
               <h3 className="text-lg font-semibold">MongoDB</h3>
-              <img src="/mongodb.svg" alt="MongoDB Logo" className="w-12 h-12 mx-auto mt-2" />
+              <Image src="/mongodb.svg" alt="MongoDB Logo" className="w-12 h-12 mx-auto mt-2" />
             </div>
 
             {/* Arrow pointing to "Models" */}
