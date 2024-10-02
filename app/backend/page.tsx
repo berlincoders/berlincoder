@@ -21,7 +21,8 @@ export default function Backend() {
               <p>Frontend</p>
             </div>
           </div>
-          <div>
+
+          {/* Arrows with text from UI to API */}
           <div className="absolute flex flex-col ">
             <div className="flex items-center">
               <p className="text-white mr-2">Sign Up</p>
@@ -37,10 +38,6 @@ export default function Backend() {
             </div>
           </div>
 
-          </div>
-          {/* Arrows with text from UI to API */}
-
-
           {/* API Block */}
           <div className="border-2 border-red-400 w-30 h-60 flex justify-center items-center rounded-md relative">
             <div className="text-center">
@@ -52,7 +49,7 @@ export default function Backend() {
           <div className="border-2 border-blue-400 w-40 h-60 flex justify-center items-center rounded-md relative">
             <div className="text-center">
               <h3 className="text-lg font-semibold">express</h3>
-              <Image src="/express-js.png" alt="Express Logo" className="w-12 h-12 mx-auto mt-2" />
+              <Image src="/express-js.png" alt="Express Logo" width={48} height={48} className="mx-auto mt-2" />
             </div>
           </div>
 
@@ -67,7 +64,7 @@ export default function Backend() {
           <div className="border-2 border-green-400 w-40 h-60 flex justify-center items-center rounded-md relative">
             <div className="text-center">
               <h3 className="text-lg font-semibold">MongoDB</h3>
-              <Image src="/mongodb.svg" alt="MongoDB Logo" className="w-12 h-12 mx-auto mt-2" />
+              <Image src="/mongodb.svg" alt="MongoDB Logo" width={48} height={48} className="mx-auto mt-2" />
             </div>
 
             {/* Arrow pointing to "Models" */}
