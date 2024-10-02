@@ -24,10 +24,9 @@ export default function mongo() {
           children1={<Terminal command=" pgrep -l mongod" />}
           children2={<Terminal command="mkdir -p ~/data/db" />}
           children3={<Terminal command="mongod --dbpath ~/data/db" />}
-          key={mongoItems[1].id}
         />
         {/* Render second mongoItem */}
-        
+
         <SimpleMongo
           key={mongoItems[1].id}
           title={mongoItems[1].title}
