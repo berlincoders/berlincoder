@@ -1,81 +1,63 @@
-import SimpleTextbox from "@/components/ui/SimpleTextbox";
 import Image from 'next/image';
 
-export default function Backend() {
+export default function BlockContainer() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-black-100">
       <div className="max-w-7xl w-full">
 
-        <p className="mt-4 text-lg">express: To create your API routes.</p>
-        <p className="mt-4 text-lg">mongoose: To interact with MongoDB</p>
-        <p className="mt-4 text-lg">bcryptjs: To hash passwords before storing them.</p>
-        <p className="mt-4 text-lg">jsonwebtoken: To create authentication tokens.</p>
-
-        {/* Reduced the space between blocks */}
-        <div className="flex justify-center items-center space-x-4 mt-10 relative">
-
-          {/* NFLKL UI Block */}
-          <div className="border-2 border-yellow-400 w-40 h-60 flex justify-center items-center rounded-md relative">
-            <div className="text-center">
-              <h3 className="text-lg font-semibold">NFLKL UI</h3>
-              <p>Frontend</p>
+        {/* First Row - Blocks */}
+        <div className="flex space-x-4 mt-10">
+          {/* Block 1 */}
+          <div className="flex flex-col items-center justify-center border-2 border-yellow-400 w-40 h-60 rounded-md">
+            <div className="flex items-center justify-center w-10 h-10 bg-black rounded-full">
+              <p className="text-white">1</p>
             </div>
+            <p className="mt-2 text-lg">Block 1 Description</p>
           </div>
 
-          {/* Arrows with text from UI to API */}
-          <div className="absolute flex flex-col ">
-            <div className="flex items-center">
-              <p className="text-white mr-2">Sign Up</p>
-              <svg className="w-6 h-6 text-white" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-              </svg>
+          {/* Block 2 */}
+          <div className="flex flex-col items-center justify-center border-2 border-red-400 w-40 h-60 rounded-md">
+            <div className="flex items-center justify-center w-10 h-10 bg-black rounded-full">
+              <p className="text-white">2</p>
             </div>
-            <div className="flex items-center">
-              <p className="text-white mr-2">Log In</p>
-              <svg className="w-6 h-6 text-white" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-              </svg>
-            </div>
+            <p className="mt-2 text-lg">Block 2 Description</p>
           </div>
 
-          {/* API Block */}
-          <div className="border-2 border-red-400 w-30 h-60 flex justify-center items-center rounded-md relative">
-            <div className="text-center">
-              <h3 className="text-lg font-semibold">API</h3>
+          {/* Block 3 */}
+          <div className="flex flex-col items-center justify-center border-2 border-blue-400 w-40 h-60 rounded-md">
+            <div className="flex items-center justify-center w-10 h-10 bg-black rounded-full">
+              <p className="text-white">3</p>
             </div>
+            <p className="mt-2 text-lg">Express</p>
           </div>
 
-          {/* Express Block */}
-          <div className="border-2 border-blue-400 w-40 h-60 flex justify-center items-center rounded-md relative">
-            <div className="text-center">
-              <h3 className="text-lg font-semibold">express</h3>
-              <Image src="/express-js.png" alt="Express Logo" width={48} height={48} className="mx-auto mt-2" />
+          {/* Block 4 */}
+          <div className="flex flex-col items-center justify-center border-2 border-green-400 w-40 h-60 rounded-md">
+            <div className="flex items-center justify-center w-10 h-10 bg-black rounded-full">
+              <p className="text-white">4</p>
             </div>
+            <p className="mt-2 text-lg">MongoDB</p>
           </div>
-
-          {/* Arrow between Express and MongoDB */}
-          <div>
-            <svg className="w-8 h-8 text-white" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
-
-          {/* MongoDB Block */}
-          <div className="border-2 border-green-400 w-40 h-60 flex justify-center items-center rounded-md relative">
-            <div className="text-center">
-              <h3 className="text-lg font-semibold">MongoDB</h3>
-              <Image src="/mongodb.svg" alt="MongoDB Logo" width={48} height={48} className="mx-auto mt-2" />
+          {/*  step 1 */}
+          <div id="FakeBlock" className='flex-col'>
+            <div className="flex-row  w-10 h-10 bg-white rounded-full">
+                <p className="text-black">1</p>
+                <p className="text-lg mt-2">MongoDB Setup</p>
             </div>
+              <div>
 
-            {/* Arrow pointing to "Models" */}
-            <div className="absolute top-1/4 right-[-120px] flex items-center">
-              <p className="text-white mr-2">Models</p>
-              <svg className="w-8 h-8 text-white" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
-              </svg>
-            </div>
+              </div>
+              <p className="text-lg">Models</p>
           </div>
         </div>
+
+
+        {/* Second Row */}
+        <div id="SecondRow" className="flex flex-col items-center mt-10">
+
+
+        </div>
+
       </div>
     </main>
   );
