@@ -67,6 +67,29 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+export const shopifyItems = [
+ {
+    id: 1,
+    title: "1) Install Prerequisites",
+    description: `Node.js, Git, install Shopify CLI, to install the Shopify CLI, run the command below:`,
+    desc2: `After installation, confirm that Shopify CLI is correctly installed by running:`,
+    desc3: `<pre>3.70.0</pre><br>
+    If you see a similar message in your console, you have successfully installed Shopify CLI.`,
+  },
+  {
+    id: 2,
+    title: " 2) Log in to Shopify",
+    description: "Open your terminal and log in to Shopify using the command:",
+    desc2: `Follow the instructions to authenticate your account.`,
+  },
+  {
+    id: 3,
+    title: " 3) Create a Hydrogen App",
+    description: "Open your terminal and log in to Shopify using the command:",
+    desc2: `Follow the instructions to authenticate your account.`,
+  },
+
+]
 
 export const sslItems =[
   {
