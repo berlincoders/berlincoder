@@ -7,12 +7,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Soft Skills for Web Developers: Ensuring Smooth Client, Team, and User Interactions",
-    description: "",
+    title: "Build custom commerce with Shopify Liquid.",
+    description: "With Shopify, you can easily create custom storefronts, unique cart and checkout experiences, and seamless integrations tailored to your needs. Using Shopify Liquid, the possibilities are endless—design and build exactly what you envision for your business.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full object-contain p-4",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/shopify.webp",
     spareImg: "",
   },
   {
