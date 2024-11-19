@@ -1,3 +1,5 @@
+
+import Image from "next/image";
 import Footer from "@/components/Footer";
 import { shopifyItems } from "@/data/index"; // Import the data
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -13,7 +15,16 @@ export default function shopify() {
         <FloatingNav navItems={navItems} />
 
         <Header className="mb-5">
-          <div className="h-full w-full">
+          <div className="h-full w-full flex justify-center">
+           {/* Add the image here */}
+          <Image
+              src="/hydrogen.png"
+              alt="Hydrogen Banner"
+              width={850} // Adjust as needed
+              height={350} // Adjust as needed
+              className="rounded-lg object-cover"
+            />
+
             <h1></h1>
           </div>
         </Header>
