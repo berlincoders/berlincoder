@@ -18,7 +18,7 @@ export default function shopify() {
           <div className="h-full w-full flex justify-center">
            {/* Add the image here */}
           <Image
-              src="/hydrogen.png"
+              src="/hydrogen.webp"
               alt="Hydrogen Banner"
               width={850} // Adjust as needed
               height={350} // Adjust as needed
