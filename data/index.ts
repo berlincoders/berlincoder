@@ -48,8 +48,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a MERN project",
-    description: "The Inside Scoop",
+    title: "Create React App is Being Deprecated!",
+    description: "In a recent announcement on the React blog, the React team shared a significant update: Create React App (CRA) is being deprecated. This decision marks the end of an era for one of the most popular tools for bootstrapping React applications",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -140,19 +140,19 @@ export const mongoItems =[
 export const projects = [
   {
     id: 1,
-    title: "NFLKL app",
-    des: "Watch all NFL games for free, and utilize our FREE API solution! ",
+    title: "DACLONE",
+    des: "Disclaimer: This project is a didactic clone of DAZN, created solely for educational purposes. The only intention behind this project is to learn and practice development skills using Next.js and related technologies. There is no intent to harm, compete with, or infringe on the rights of DAZN or its affiliates. All trademarks and content associated with DAZN remain the property of their respective owners.",
     img: "/p1.png",
     iconLists: ["/tailwind.svg", "/mongodb.svg","/re.svg"],
     link: "https://github.com/berlincoders/nflkl",
   },
   {
     id: 2,
-    title: "skullbug",
-    des: "Skullbug is a cutting-edge bug tracking system designed to streamline issue management and resolution for agile software development teams.",
-    img: "/skullbug_promo.png",
+    title: "your proyect here!",
+    des: "Got something cool you're working on? Let’s showcase it! I’m offering this space for free to feature awesome projects from fellow developers, designers, and creators. If you’ve built something you’re proud of, let’s put it in the spotlight—just reach out and let’s share your work with the world",
+    img: "/side.png",
     iconLists: ["/java.svg","/Spring.png"],
-    link: "https://github.com/berlincoders/skullbug",
+    link: "",
   },
   {
     id: 3,
