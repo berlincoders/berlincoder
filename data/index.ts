@@ -7,12 +7,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Build custom commerce with Shopify Liquid.",
-    description: "With Shopify, you can easily create custom storefronts, unique cart and checkout experiences, and seamless integrations tailored to your needs. Using Shopify Liquid, the possibilities are endless—design and build exactly what you envision for your business.",
+    title: "Explore the Logic Under the Hood",
+    description: "What happens after you click “Buy Now” or log in to your account? In this section, we’ll explain the hidden work the website does—like saving your info, checking passwords, or sending a confirmation email. It’s the behind-the-scenes logic that makes everything run smoothly—and we’ll keep it super simple.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full object-contain p-4",
     titleClassName: "justify-end",
-    img: "/shopify.webp",
+    img: "/Backend.png",
     spareImg: "",
   },
   {

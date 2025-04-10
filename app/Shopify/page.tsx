@@ -15,7 +15,7 @@ export default function shopify() {
         <FloatingNav navItems={navItems} />
 
         <Header className="mb-5">
-          <div className="h-full w-full flex justify-center">
+          <div className="h-full w-full flex justify-center flex-col">
            {/* Add the image here */}
           <Image
               src="/hydrogen.webp"
@@ -24,8 +24,19 @@ export default function shopify() {
               height={350} // Adjust as needed
               className="rounded-lg object-cover"
             />
+            <h1 className="text-white text-4xl font-bold mt-4">Welcome to Hydrogen</h1>
+            <p> check the oficial documetation here: {""}
+                <a
+                  href="https://shopify.dev/docs/custom-storefronts/hydrogen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 underline hover:text-blue-300"
+                >
+                  Hydrogen Documentation
+                </a>
 
-            <h1></h1>
+
+            </p>
           </div>
         </Header>
 
