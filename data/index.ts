@@ -144,11 +144,11 @@ export const projects = [
     des: "Disclaimer: This project is a didactic clone of DAZN, created solely for educational purposes. The only intention behind this project is to learn and practice development skills using Next.js and related technologies. There is no intent to harm, compete with, or infringe on the rights of DAZN or its affiliates. All trademarks and content associated with DAZN remain the property of their respective owners.",
     img: "/p1.png",
     iconLists: ["/tailwind.svg", "/mongodb.svg","/re.svg"],
-    link: "https://github.com/berlincoders/nflkl",
+    link: "",
   },
   {
     id: 2,
-    title: "your proyect here!",
+    title: "your project here!",
     des: "Got something cool you're working on? Let’s showcase it! I’m offering this space for free to feature awesome projects from fellow developers, designers, and creators. If you’ve built something you’re proud of, let’s put it in the spotlight—just reach out and let’s share your work with the world",
     img: "/side.png",
     iconLists: ["/java.svg","/Spring.png"],
